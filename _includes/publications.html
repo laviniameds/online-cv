@@ -12,21 +12,23 @@
 
   {% if publications.intro %}
   <div class="intro">
-    {{ publications.intro | markdownify }}
+    <h3>{{ publications.intro | markdownify }}</h3>
   </div><!--//intro-->
   {% endif %}
 
   {% for publication in publications.papers %}
   <div class="item">
     {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+     <p><span class="fas fa-file-alt"></span> {{ publication.authors }} <b><a href="{{ publication.link }}"> {{ publication.title }}</a></b>. {{ publication.conference }}.</p> 
     {% else %}
-      <li>{{ publication.title }}</li>
+    <p><span class="fas fa-file-alt"></span> {{ publication.authors }} <b>{{ publication.title }}</b>. {{ publication.conference }}.</p> 
+    
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
+    <!-- <p><div class="publication-authors">{{ publication.authors }}</div>
+    <div class="publication-conference">{{ publication.conference }}</div></p> -->
   </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
 {% endif %}
+

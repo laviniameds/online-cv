@@ -1,0 +1,18 @@
+{% assign resume = site.data.data.resume %}
+{% if resume %}
+<section class="section summary-section">
+
+  <h1>
+    {{ resume.title }}
+  </h1>
+  <h4>
+      {{ resume.position }}
+  </h4>
+  <br>
+  <div class="description">
+    {{ resume.description }}
+  </div><!--//description-->
+
+  <hr>
+</section><!--//section-->
+{% endif %}

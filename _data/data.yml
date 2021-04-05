@@ -3,188 +3,142 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Lavinia Miranda
+    tagline: Master student in Computer Science
+    avatar: lavinia.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: laviniameds@icloud.com
+    phone: +55 (084) 999488811
+    #website: laviniameds.github.io #do not add http://
+    linkedin: laviniameds
+    github: laviniameds
+    telegram: laviniameds # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: laviniameds
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+    codewars: 
     goodreads: # Number-Username, e.g. 123456-alandoe
+    lattes: 6492382972414047
+    resume: Resume_Lavinia_Miranda.pdf
 
     languages:
-      - idiom: English
+      - idiom: Portuguese
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: French
+        level: Basic
 
     interests:
-      - item: Climbing
+      - item: Cinema
         link:
 
-      - item: Snowboarding
+      - item: Music
+        link:
+
+      - item: Literature
         link:
 
       - item: Cooking
         link:
 
+resume:
+  title: Lavinia Medeiros Miranda
+  #position: Software Analyst and Developer 
+  description: >
+    I'm currently pursuing a master's degree in Computer Science at 
+    UFRN (Federal University of Rio Grande do Norte). I have experience working in software
+    development and always enjoyed participating events such as local workshops and 
+    programming marathons (ICPC, Codeforces). At the end of college I became interested 
+    in EDA (Eletronic Design Automation) topics and my final graduation project was
+    about HLS process. I intend to complete the master's degree and enter a PhD program later.
+
+research-interests:
+  title: Research Interests
+  description: >
+    My research interests include topics related to Reconfigurable Architectures, 
+    HLS, Approximate Computing and Compilers. I'm currently working 
+    on approximate computing techniques applied to code transformations and 
+    reconfigurable architectures such as CGRA.
+
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    title: Positions - Career Profile
+    items: 
+      - intro: Software Developer Intern
+        date: 2018 - 2019
+        description: >
+          at DIGTI/CONSINF - IFRN, Natal/Brazil. <br>
+          Development of automated functional and usability tests.
+          Implementation, documentation and maintenance of web system.<br>
+          Used: Python/Django/Selenium/PostgreSQL
+      - intro: Software Developer Intern
+        date: 2017 - 2018
+        description: > 
+          at NAVI - IFRN, Natal/Brazil. <br>
+          Documentation of automated functional and usability tests
+          results. Maintenance of web system with focus on user experience. <br>
+          Used: PHP/Laravel/PostgreSQL
+# education:
+#     - degree: MSc in Computer Science
+#       university: Federal University of Rio Grande do Norte - Natal/Brazil
+#       time: 2020 - Present
+#       details: 
+#     - degree: Undergraduate in Analysis and Systems Development
+#       university: Federal Institute of Rio Grande do Norte, Natal/Brazil 
+#       time: 2017 - 2020
+#       details: 
+#     - degree: Technical diploma in Informatics
+#       university: Federal Institute of Rio Grande do Norte, Natal/Brazil 
+#       time: 2013 - 2016
+#       details: 
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+degrees:
+  title: Education
+  items: 
+  - intro: Present - <b>MSc, Computer Science</b>,  
+    description: >
+      Federal University of Rio Grande do Norte - Natal/Brazil. 
+      Advisor: Monica Magalhães Pereira (UFRN).
+  - intro: 2020 - <b> B.Tech, Systems Analysis and Development (with honors)</b>,
+    description: > 
+      Federal Institute of Rio Grande do Norte - Natal/Brazil.
+      Advisor: Jorgiano Márcio Bruno Vidal (IFRN). 
+  - intro: 2016 - <b>Technician diploma in Informatics</b>,
+    description: > 
+      Federal Institute of Rio Grande do Norte - Natal/Brazil. 
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. [TODO]
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    intro: National Conference Workshops
+    papers: 
+      - title: LLVM Pass to identify parallelism options
+        authors: Lavinia M. Miranda, Márcio E. Kreutz.
+        conference: "VI WORKSHOP NPITI - WIE DAY 2020"
 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+    title: Skills
+    languages: C/C++, Java, Python, PHP, Javascript, HTML/CSS.
+    tools: Eclipse, Visual Studio Code, PyCharm, Latex, Docker.
+    data: MySQL, PostgreSQL.
+    systems: Linux (Ubuntu, Mint), Windows.
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,0 +1,21 @@
+{% assign degrees = site.data.data.degrees %}
+{% if degrees %}
+<section class="section degrees-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ degrees.title }}
+  </h2>
+
+{% for degree in degrees.items %}
+  <div class="description">
+    <p>{{ degree.intro }} {{ degree.description }}</p>
+  </div><!--//description-->
+{% endfor %}
+
+
+</section><!--//section-->
+{% endif %}
