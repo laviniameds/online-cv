@@ -4,19 +4,22 @@
         size: A4;
     }
     body {
-       font-size: 12pt;
+       font-size: 10pt;
     }
 
     img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+        //filter: grayscale(1);
+        //-webkit-filter: greyscale(1);
+        width: 180px;
     }
    .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
+      float: right;
+      color: black !important;
+      -webkit-print-color-adjust: exact; 
    }
     .sidebar-wrapper {
+        font-size: 8pt;
+        margin-top: 0;
         position: static;
         float: right;
         width: 40%;
