@@ -64,8 +64,8 @@ resume:
 research-interests:
   title: Research Interests
   description: >
-    My research interests include topics related to Reconfigurable Architectures, 
-    HLS, Approximate Computing and Compilers. I'm currently working 
+    My research interests include topics related to Approximate Computing, Compilers,
+    HLS, IoT, Edge Computing, IA and Robotics. I'm currently working 
     on approximate computing techniques applied to code transformations and 
     reconfigurable architectures such as CGRA.
 
