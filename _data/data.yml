@@ -129,13 +129,11 @@ degrees:
 
 publications:
     title: Publications
-    intro: National Conference Workshops
+    intro: National and International Conferences 
     papers: 
       - title: LLVM Pass to identify parallelism options
         authors: Lavinia M. Miranda, Márcio E. Kreutz.
         conference: "VI WORKSHOP NPITI - WIE DAY 2020"
-    intro: International Conferences 
-    papers: 
       - title: LLVM-ACT: Profiling Based Tool for Approximate Computing Technique Selection
         authors: Lavinia M. Miranda, Monica M. Pereira, Jorgiano B. Vidal.
         conference: "XII Brazilian Symposium on Computing Systems Engineering - 2022"
